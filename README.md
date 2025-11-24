@@ -15,7 +15,7 @@
 * Асинхронная очередь задач Celery и интеграция с Redis. (Одна задача в подарок)
 ## Установка и запуск  
 ### Клонируйте репозиторий:
-git clone https://github.com/carplatinum/el_network  
+git clone https://github.com/carplatinum/el_network-  
 cd el_network  
 ### Создайте и активируйте виртуальное окружение:
 python -m venv .venv  
