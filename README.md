@@ -25,6 +25,7 @@ source .venv/bin/activate   # Linux/macOS
 pip install -r requirements.txt  
 Настройте переменные окружения, укажите параметры базы данных, секретный ключ и прочие необходимые параметры.
 ### Выполните миграции базы данных:
+python manage.py makemigrations  
 python manage.py migrate  
 ### Создайте суперпользователя для доступа к админ-панели:
 python manage.py createsuperuser  
